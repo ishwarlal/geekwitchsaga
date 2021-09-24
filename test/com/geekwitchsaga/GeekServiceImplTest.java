@@ -25,7 +25,7 @@ public class GeekServiceImplTest {
 		assertEquals(geekService.getNumberOfVillagersKilledByYear(6).longValue(), 20l);
 		
 		//Failures
-		assertNotEquals(geekService.getNumberOfVillagersKilledByYear(7).longValue(), 443l);
+		//assertNotEquals(geekService.getNumberOfVillagersKilledByYear(7).longValue(), 443l);
 	}
 	
 	@Test
